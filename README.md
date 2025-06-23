@@ -1,27 +1,88 @@
 # Tippy - A Simple Tip Calculator for Android
 
-Build Tippy as your first Android app! Follow the [YouTube walkthrough video](https://www.youtube.com/playlist?list=PL7NYbSE8uaBCMVBVg6cskGzdYguj3CUP-)
+![image](https://github.com/user-attachments/assets/e1bd540a-b1b3-4082-bc99-1e9b496da55f)
 
-<p float="middle">
-    <img src="https://raw.githubusercontent.com/rpandey1234/AndroidTippy/main/framed1.png" width="300">
-    <img src="https://raw.githubusercontent.com/rpandey1234/AndroidTippy/main/ColorAnimationTip.gif" width="250">
-</p>
 
-**Author:** [Rahul Pandey](https://www.youtube.com/rpandey1234)
+![image](https://github.com/user-attachments/assets/3338bfa0-ecaa-4bae-aa91-63d627844241)
 
-<a href='https://play.google.com/store/apps/details?id=com.rkpandey.tipcalculator'><img width="200px" src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' /></a>
+# Tippy - Tip Calculator App
 
-Features:
-- Pure Kotlin
-- Single screen
-- No libraries
+Tippy is a simple and user-friendly tip calculator Android application developed using **Kotlin** and **XML** in **Android Studio**. It allows users to calculate the tip amount and the total amount to pay based on a customizable tip percentage.
 
-# License
+## 🚀 Features
 
-    Copyright 2021 Rahul Pandey
+- Input the base bill amount
+- Adjust tip percentage with a slider
+- Real-time calculation of:
+  - Tip amount
+  - Total amount (Base + Tip)
+- Dynamic text feedback (e.g., “Great”) based on tip percentage
+- Clean and responsive UI design
+- Compatible with various Android screen sizes
 
-    Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+## 📱 Screenshots
 
-    http://www.apache.org/licenses/LICENSE-2.0
+| Main Screen |
+|-------------|
+| ![Tippy App Screenshot](screenshots/tippy_main.png) |
 
-    Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+## 🛠️ Tech Stack
+
+- **Language:** Kotlin
+- **UI Design:** XML
+- **Architecture:** Android ConstraintLayout
+- **IDE:** Android Studio
+- **Minimum SDK:** 21 (Lollipop)
+
+## 💡 How It Works
+
+1. The user enters the **Base Amount**.
+2. The **Tip Percentage** is adjusted using a slider (SeekBar).
+3. The app displays the:
+   - **Tip amount** = Base × Tip %
+   - **Total amount** = Base + Tip
+4. A comment ("Poor", "Good", "Great", etc.) is shown based on the percentage chosen.
+
+## 📂 Project Structure
+
+app/
+├── java/
+│ └── com.example.tipcalculator/
+│ └── MainActivity.kt
+├── res/
+│ ├── layout/
+│ │ └── activity_main.xml
+│ ├── values/
+│ │ └── strings.xml, colors.xml, themes.xml
+└── AndroidManifest.xml
+
+bash
+Copy
+Edit
+
+## ✅ How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/Tippy.git
+Open the project in Android Studio.
+
+Sync Gradle and build the project.
+
+Run the app on an emulator or physical device.
+
+🙋‍♂️ Author
+Amarjeet Kumar
+Mini Project - Made with ❤️
+Connect: LinkedIn | GitHub
+
+📜 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+yaml
+Copy
+Edit
+
+---
+
+Let me know if you'd like this converted to a `.md` file or want me to tailor the GitHub links, add setup instructions, or enhance the UI preview section.
