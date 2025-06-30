@@ -43,6 +43,22 @@ Tippy is a simple and user-friendly tip calculator Android application developed
    - **Total amount** = Base + Tip
 4. A comment ("Poor", "Good", "Great", etc.) is shown based on the percentage chosen.
 
+## 🧑‍💻 Author
+
+**Amarjeet Kumar**  
+**UID:** 21BCS10768  
+**Department of Computer Science & Engineering**  
+**Chandigarh University**
+
+**Portfolio:** [https://amarjeetkr.vercel.app/](https://amarjeetkr.vercel.app/)  
+**LinkTree:** [https://linktr.ee/AmarjeetKumarJyotish](https://linktr.ee/AmarjeetKumarJyotish)  
+**GitHub:** [https://github.com/AmarjeetJyotis](https://github.com/AmarjeetJyotis)  
+**LinkedIn:** [https://www.linkedin.com/in/amarjeet-jyotish/](https://www.linkedin.com/in/amarjeet-jyotish/)  
+**GeeksforGeeks:** [https://www.geeksforgeeks.org/user/amarjeetjyotish/](https://www.geeksforgeeks.org/user/amarjeetjyotish/)  
+**LeetCode:** [https://leetcode.com/u/AmarjeetJyotish/](https://leetcode.com/u/AmarjeetJyotish/)
+
+
+
 ## 📂 Project Structure
 
 app/
@@ -71,18 +87,7 @@ Sync Gradle and build the project.
 
 Run the app on an emulator or physical device.
 
-🙋‍♂️ Author
-Amarjeet Kumar
-Mini Project - Made with ❤️
-Connect: LinkedIn | GitHub
 
 📜 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-yaml
-Copy
-Edit
-
----
-
-Let me know if you'd like this converted to a `.md` file or want me to tailor the GitHub links, add setup instructions, or enhance the UI preview section.
